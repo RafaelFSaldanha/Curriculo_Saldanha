@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    font-family: "arial";
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+}
+
+.line{
+    height: 2px;
+    width: 100px;
+    background-color: #07526E;
+}
+
+.section {
+    display: flex;
+    flex-direction: row;
+    height: 120vh;
+    width: 30%;
+    background-color: #dedede;
+    border-radius: 2vh;
+    margin-top: 1vh;
+}
+
+.divEsquerda {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 40%;
+    background-color: #0C2236;
+    border-radius: 2vh 0 0 2vh;
+}
+
+.divFoto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15%;
+    width: 70%;
+    background-color: #07526E;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+img {
+    height: 90%;
+    width: 90%;
+}
+
+.divNome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 4%;
+    width: 80%;
+    margin-top: 20px;
+}
+
+.h4Primeiro {
+    color: #c4c4c4;
+    font-size: 18px;
+}
+
+.p {
+    
+    color: #c4c4c4;
+    font-size: 10px;
+    margin-top: .5vh;
+}
+
+.pPrimeiro {
+    color: #c4c4c4;
+    font-size: 15px;
+    margin-top: .5vh;
+}
+
+.h4Segundo {
+    color: #c4c4c4;
+    font-size: 14px;
+    margin-top: 1vh;
+}
+
+.pSegundo {
+    color: #c4c4c4;
+    font-size: 13px;
+    margin-top: 1vh;
+}
+
+.divIdiomas {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    height: 11%;
+    width: 80%;
+    margin-top: 60px;
+}
+
+span {
+    font-weight: bolder;
+    font-size: 14px;
+}
+
+.divCursos {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    height: 55%;
+    width: 80%;
+    margin-top: 10px;
+}
+
+.divDireita {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+    width: 60%;
+}
+
+.divTopicos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 17%;
+    width: 100%;
+}
+
+.titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 15%;
+    background-color: #07526E;
+    color: #c4c4c4;
+    border-radius: 0 20px 20px 0;
+}
+
+.rotacao {
+    transform: rotate(270deg);
+}
+
+.informacoes {
+    display: flex;
+    flex-direction: column;
+    justify-content:  center;
+    height: 100%;
+    width: 80%;
+    font-size: 13px;
+    margin-right: 5px;
+}
+
+.divTopicos2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 22%;
+    width: 100%;
+}
+
+.divForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 45%;
+    width: 100%;
+}
+
+.informacoes2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+    width: 80%;
+    margin-right: 5px;
+    font-size: 13px;
+}
+
+.Data {
+    color: #07526E;
+    font-size: 11px;
+}
+
+.tituloInformacao {
+    color: #07526E;
+    font-weight: bolder;
+    font-size: 13.5px;
+}
+
+.informacoes3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+    width: 75%;
+    font-size: 13px;
+}
+
+.tituloExperiencia {
+    color: #07526E;
+    font-weight: bolder;
+    font-size: 13.5px;
+    margin-top: .5vh;
+    margin-bottom: 1vh;
+}
+
+.divTopicos3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 30%;
+    width: 100%;
+}
+
+.informacoes3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+    width: 80%;
+    margin-right: 5px;
+    font-size: 13px;
+}
+
+.imgContato {
+    height: 2vh;
+    width: 1vw;
+}
